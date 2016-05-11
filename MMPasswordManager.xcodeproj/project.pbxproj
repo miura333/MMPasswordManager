@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51B2CD71CC9F64C00AA3664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B2CD61CC9F64C00AA3664 /* AppDelegate.swift */; };
+		D51B2CD91CC9F64C00AA3664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B2CD81CC9F64C00AA3664 /* ViewController.swift */; };
+		D51B2CDC1CC9F64C00AA3664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B2CDA1CC9F64C00AA3664 /* Main.storyboard */; };
+		D51B2CDF1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D51B2CDD1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodeld */; };
+		D51B2CE11CC9F64C00AA3664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51B2CE01CC9F64C00AA3664 /* Assets.xcassets */; };
+		D51B2CE41CC9F64C00AA3664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B2CE21CC9F64C00AA3664 /* LaunchScreen.storyboard */; };
+		D51B2CEC1CC9F9B000AA3664 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B2CEB1CC9F9B000AA3664 /* AppUtil.swift */; };
+		D545571B1CCF5755004AA56D /* MMPMAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D545571A1CCF5755004AA56D /* MMPMAddView.swift */; };
+		D54557201CCF5E2E004AA56D /* 00-btn_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D545571D1CCF5E2E004AA56D /* 00-btn_arrow@2x.png */; };
+		D54557211CCF5E2E004AA56D /* 00-btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D545571E1CCF5E2E004AA56D /* 00-btn_close@2x.png */; };
+		D54557221CCF5E2E004AA56D /* 00-cell_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D545571F1CCF5E2E004AA56D /* 00-cell_arrow@2x.png */; };
+		D54557241CCF66B6004AA56D /* MMPMMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54557231CCF66B6004AA56D /* MMPMMainView.swift */; };
+		D54557291CCF6796004AA56D /* APUTNavigationCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54557261CCF6796004AA56D /* APUTNavigationCtrl.swift */; };
+		D545572A1CCF6796004AA56D /* APUTNavigationSubViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54557271CCF6796004AA56D /* APUTNavigationSubViewBase.swift */; };
+		D545572B1CCF6796004AA56D /* APUTNotificationReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54557281CCF6796004AA56D /* APUTNotificationReceiverView.swift */; };
+		D577BE6E1CE320A3002DB17B /* DefineAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D577BE6D1CE320A3002DB17B /* DefineAll.swift */; };
+		D577BE701CE3220D002DB17B /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D577BE6F1CE3220D002DB17B /* LocalAuthentication.framework */; };
+		D58EFF9B1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58EFF991CD08CEE00E5F2E9 /* MMPM_ACCOUNTS.swift */; };
+		D58EFF9C1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58EFF9A1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D51B2CD31CC9F64C00AA3664 /* MMPasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B2CD61CC9F64C00AA3664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D51B2CD81CC9F64C00AA3664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51B2CDB1CC9F64C00AA3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D51B2CDE1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMPasswordManager.xcdatamodel; sourceTree = "<group>"; };
+		D51B2CE01CC9F64C00AA3664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51B2CE31CC9F64C00AA3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51B2CE51CC9F64C00AA3664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51B2CEB1CC9F9B000AA3664 /* AppUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtil.swift; sourceTree = "<group>"; };
+		D545571A1CCF5755004AA56D /* MMPMAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPMAddView.swift; sourceTree = "<group>"; };
+		D545571D1CCF5E2E004AA56D /* 00-btn_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-btn_arrow@2x.png"; sourceTree = "<group>"; };
+		D545571E1CCF5E2E004AA56D /* 00-btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-btn_close@2x.png"; sourceTree = "<group>"; };
+		D545571F1CCF5E2E004AA56D /* 00-cell_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-cell_arrow@2x.png"; sourceTree = "<group>"; };
+		D54557231CCF66B6004AA56D /* MMPMMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPMMainView.swift; sourceTree = "<group>"; };
+		D54557261CCF6796004AA56D /* APUTNavigationCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APUTNavigationCtrl.swift; sourceTree = "<group>"; };
+		D54557271CCF6796004AA56D /* APUTNavigationSubViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APUTNavigationSubViewBase.swift; sourceTree = "<group>"; };
+		D54557281CCF6796004AA56D /* APUTNotificationReceiverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APUTNotificationReceiverView.swift; sourceTree = "<group>"; };
+		D577BE6D1CE320A3002DB17B /* DefineAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineAll.swift; sourceTree = "<group>"; };
+		D577BE6F1CE3220D002DB17B /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		D58EFF991CD08CEE00E5F2E9 /* MMPM_ACCOUNTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPM_ACCOUNTS.swift; sourceTree = "<group>"; };
+		D58EFF9A1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MMPM_ACCOUNTS+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51B2CD01CC9F64C00AA3664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D577BE701CE3220D002DB17B /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51B2CCA1CC9F64C00AA3664 = {
+			isa = PBXGroup;
+			children = (
+				D577BE6F1CE3220D002DB17B /* LocalAuthentication.framework */,
+				D51B2CD51CC9F64C00AA3664 /* MMPasswordManager */,
+				D51B2CD41CC9F64C00AA3664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D51B2CD41CC9F64C00AA3664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51B2CD31CC9F64C00AA3664 /* MMPasswordManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51B2CD51CC9F64C00AA3664 /* MMPasswordManager */ = {
+			isa = PBXGroup;
+			children = (
+				D58EFF991CD08CEE00E5F2E9 /* MMPM_ACCOUNTS.swift */,
+				D58EFF9A1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS+CoreDataProperties.swift */,
+				D54557251CCF6796004AA56D /* base */,
+				D545571C1CCF5E2E004AA56D /* images */,
+				D51B2CEB1CC9F9B000AA3664 /* AppUtil.swift */,
+				D51B2CD61CC9F64C00AA3664 /* AppDelegate.swift */,
+				D51B2CD81CC9F64C00AA3664 /* ViewController.swift */,
+				D51B2CDA1CC9F64C00AA3664 /* Main.storyboard */,
+				D51B2CE01CC9F64C00AA3664 /* Assets.xcassets */,
+				D51B2CE21CC9F64C00AA3664 /* LaunchScreen.storyboard */,
+				D51B2CE51CC9F64C00AA3664 /* Info.plist */,
+				D51B2CDD1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodeld */,
+				D545571A1CCF5755004AA56D /* MMPMAddView.swift */,
+				D54557231CCF66B6004AA56D /* MMPMMainView.swift */,
+				D577BE6D1CE320A3002DB17B /* DefineAll.swift */,
+			);
+			path = MMPasswordManager;
+			sourceTree = "<group>";
+		};
+		D545571C1CCF5E2E004AA56D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D545571D1CCF5E2E004AA56D /* 00-btn_arrow@2x.png */,
+				D545571E1CCF5E2E004AA56D /* 00-btn_close@2x.png */,
+				D545571F1CCF5E2E004AA56D /* 00-cell_arrow@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D54557251CCF6796004AA56D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D54557261CCF6796004AA56D /* APUTNavigationCtrl.swift */,
+				D54557271CCF6796004AA56D /* APUTNavigationSubViewBase.swift */,
+				D54557281CCF6796004AA56D /* APUTNotificationReceiverView.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51B2CD21CC9F64C00AA3664 /* MMPasswordManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B2CE81CC9F64C00AA3664 /* Build configuration list for PBXNativeTarget "MMPasswordManager" */;
+			buildPhases = (
+				D51B2CCF1CC9F64C00AA3664 /* Sources */,
+				D51B2CD01CC9F64C00AA3664 /* Frameworks */,
+				D51B2CD11CC9F64C00AA3664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPasswordManager;
+			productName = MMPasswordManager;
+			productReference = D51B2CD31CC9F64C00AA3664 /* MMPasswordManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51B2CCB1CC9F64C00AA3664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = miura;
+				TargetAttributes = {
+					D51B2CD21CC9F64C00AA3664 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D51B2CCE1CC9F64C00AA3664 /* Build configuration list for PBXProject "MMPasswordManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51B2CCA1CC9F64C00AA3664;
+			productRefGroup = D51B2CD41CC9F64C00AA3664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51B2CD21CC9F64C00AA3664 /* MMPasswordManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51B2CD11CC9F64C00AA3664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54557221CCF5E2E004AA56D /* 00-cell_arrow@2x.png in Resources */,
+				D51B2CE41CC9F64C00AA3664 /* LaunchScreen.storyboard in Resources */,
+				D51B2CE11CC9F64C00AA3664 /* Assets.xcassets in Resources */,
+				D51B2CDC1CC9F64C00AA3664 /* Main.storyboard in Resources */,
+				D54557201CCF5E2E004AA56D /* 00-btn_arrow@2x.png in Resources */,
+				D54557211CCF5E2E004AA56D /* 00-btn_close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51B2CCF1CC9F64C00AA3664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B2CD91CC9F64C00AA3664 /* ViewController.swift in Sources */,
+				D58EFF9C1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS+CoreDataProperties.swift in Sources */,
+				D54557291CCF6796004AA56D /* APUTNavigationCtrl.swift in Sources */,
+				D51B2CDF1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodeld in Sources */,
+				D54557241CCF66B6004AA56D /* MMPMMainView.swift in Sources */,
+				D58EFF9B1CD08CEE00E5F2E9 /* MMPM_ACCOUNTS.swift in Sources */,
+				D577BE6E1CE320A3002DB17B /* DefineAll.swift in Sources */,
+				D545572A1CCF6796004AA56D /* APUTNavigationSubViewBase.swift in Sources */,
+				D545571B1CCF5755004AA56D /* MMPMAddView.swift in Sources */,
+				D51B2CD71CC9F64C00AA3664 /* AppDelegate.swift in Sources */,
+				D545572B1CCF6796004AA56D /* APUTNotificationReceiverView.swift in Sources */,
+				D51B2CEC1CC9F9B000AA3664 /* AppUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D51B2CDA1CC9F64C00AA3664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B2CDB1CC9F64C00AA3664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D51B2CE21CC9F64C00AA3664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B2CE31CC9F64C00AA3664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51B2CE61CC9F64C00AA3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51B2CE71CC9F64C00AA3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51B2CE91CC9F64C00AA3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 雅一 三浦 (KXJRE35GAF)";
+				INFOPLIST_FILE = MMPasswordManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miura.mmpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59afc958-90b2-4bf5-8e34-0a059f9e9ef3";
+			};
+			name = Debug;
+		};
+		D51B2CEA1CC9F64C00AA3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMPasswordManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miura.mmpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51B2CCE1CC9F64C00AA3664 /* Build configuration list for PBXProject "MMPasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B2CE61CC9F64C00AA3664 /* Debug */,
+				D51B2CE71CC9F64C00AA3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51B2CE81CC9F64C00AA3664 /* Build configuration list for PBXNativeTarget "MMPasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B2CE91CC9F64C00AA3664 /* Debug */,
+				D51B2CEA1CC9F64C00AA3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D51B2CDD1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D51B2CDE1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodel */,
+			);
+			currentVersion = D51B2CDE1CC9F64C00AA3664 /* MMPasswordManager.xcdatamodel */;
+			path = MMPasswordManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D51B2CCB1CC9F64C00AA3664 /* Project object */;
+}
