@@ -2,6 +2,10 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+## 20160516 miura add
+icon-120.png
+icon-180.png
+
 ## Build generated
 build/
 DerivedData
